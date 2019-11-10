@@ -10,19 +10,19 @@ http://www.rubicode.com/Software/Bundles.html#RCDefaultApp
 
 3. copy the RCDefaultApp.prefPane file to the folder
 
-~/Library/PreferencePanes
+> ~/Library/PreferencePanes
 
 4. set the kitty as the default terminal
 
-system preference - default Apps - click the "default Apps" - URLS - x-man-page - set iTerm as the default application
+> system preference - default Apps - click the "default Apps" - URLS - x-man-page - set iTerm as the default application
 
 5. set shortcut to initialize the terminal
 
-System Preferences -> Keyboard -> Shortcuts -> Services -> New iTerm2 window here
+> System Preferences -> Keyboard -> Shortcuts -> Services -> New iTerm2 window here
 
 I set the shortcut as: (shift+command+1)
 
 6. put the kitty.conf inside the folder of ~/.config/kitty/
 
-wget https://raw.githubusercontent.com/JakeJing/kittyconfig/master/kitty.conf -P ~/.config/kitty/
+> wget https://raw.githubusercontent.com/JakeJing/kittyconfig/master/kitty.conf -P ~/.config/kitty/
 
