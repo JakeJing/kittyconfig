@@ -16,5 +16,5 @@ I set the shortcut as: (shift+command+1)
 
 4. put the kitty.conf inside the folder of ~/.config/kitty/
 
-wget -P ~/.config/kitty/
+wget https://raw.githubusercontent.com/JakeJing/kittyconfig/master/kitty.conf -P ~/.config/kitty/
 
