@@ -10,7 +10,7 @@ http://www.rubicode.com/Software/Bundles.html#RCDefaultApp
 
 3. copy the RCDefaultApp.prefPane file to the folder
 
-> ~/Library/PreferencePanes
+> /Library/PreferencePanes/
 
 4. set the kitty as the default terminal
 
