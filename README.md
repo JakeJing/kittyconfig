@@ -4,13 +4,10 @@ configuration file for my kitty on mac
 1. install kitty on mac
 > curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 
-2. download the plug-in deafault app in the following web (used to set iTerm as the default terminal tool), and double click the .dmg, and follow the README.rtf to finish the installation
+2. download the plug-in deafault app in this repository, and copy the RCDefaultApp.prefPane file to the folder
+> git clone https://github.com/JakeJing/kittyconfig.git
 
-http://www.rubicode.com/Software/Bundles.html#RCDefaultApp
-
-3. copy the RCDefaultApp.prefPane file to the folder
-
-> /Library/PreferencePanes/
+> sudo mv kittyconfig/RCDefaultApp.prefPane /Library/PreferencePanes/
 
 4. set the kitty as the default terminal
 
@@ -18,7 +15,7 @@ http://www.rubicode.com/Software/Bundles.html#RCDefaultApp
 
 5. set shortcut to initialize the terminal
 
-> System Preferences -> Keyboard -> Shortcuts -> Services -> New iTerm2 window here
+> System Preferences -> Keyboard -> Shortcuts -> Services -> New iTerm2 window here/New kitty window here
 
 I set the shortcut as: (shift+command+1)
 
